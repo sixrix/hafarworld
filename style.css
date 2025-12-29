@@ -322,3 +322,33 @@ body {
     font-weight: 600;
     text-decoration: none;
 }
+
+.app-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 14px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn.android {
+    background: crimson;
+    color: white;
+}
+
+.btn.ios {
+    background: white;
+    color: crimson;
+    border: 2px solid crimson;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(220, 20, 60, 0.3);
+}
