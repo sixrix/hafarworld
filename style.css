@@ -352,3 +352,14 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(220, 20, 60, 0.3);
 }
+
+.app-buttons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.store-badge {
+    height: 50px;
+    width: auto;
+}
