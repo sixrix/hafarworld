@@ -363,3 +363,16 @@ body {
     height: 50px;
     width: auto;
 }
+
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.store-buttons img {
+    height: 50px;
+    width: auto;
+}
